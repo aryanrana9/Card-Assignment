@@ -1,0 +1,22 @@
+body {
+    background-color: bisque;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+   
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    color: #2d2f30;
+}
